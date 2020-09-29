@@ -1,21 +1,29 @@
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/linked-data/cube> .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Antonio Bermejo Aguña - Ayuntamiento de Madrid" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Francisco Javier Catalina Celaya - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Gallego San Miguel - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Red.es" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/created> "2019-08-30" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/hasFormat> <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal.owl> .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/issued> "2020-02-04" .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/title> "Vocabulario para la representación de los cubos de datos del padrón de habitantes"@es .
 <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/title> "Vocabulary for data cubes representation of census of inhabitants."@en .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
 # 
 # 
 # #################################################################
@@ -33,6 +41,15 @@
 # 
 # http://purl.org/dc/elements/1.1/rights
 <http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/hasFormat
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2004/02/skos/core#notation
 <http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -527,4 +544,4 @@
 <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Estructura de los datos relacionados con el país de nacimiento de los habitantes registrados en el padrón municipal."@es .
 <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://www.w3.org/2004/02/skos/core#notation> "DSD_PoblacionPorPaisNacimiento" .
 # 
-# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

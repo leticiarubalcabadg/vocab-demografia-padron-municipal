@@ -10,27 +10,32 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida">
+        <dc:contributor>Antonio Bermejo Aguña - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor>Francisco Javier Catalina Celaya - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza</dc:contributor>
         <dc:contributor>María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María del Mar Arribas de Andrés - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>Red.es</dc:contributor>
+        <dc:contributor>Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza</dc:contributor>
         <dc:contributor>Servicio de Informática - Ayuntamiento de Santiago de Compostela</dc:contributor>
         <dc:contributor>Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dc:contributor>
         <dc:contributor>Víctor Morlán Plo - Ayuntamiento de Zaragoza</dc:contributor>
+        <dc:contributor>Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza</dc:contributor>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:identifier rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
+        <terms:created>2019-08-30</terms:created>
         <terms:description xml:lang="es">Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal.</terms:description>
         <terms:description xml:lang="en">Vocabulary for the representation of the data cube measures of the census of inhabitants.</terms:description>
         <terms:hasFormat rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida.owl"/>
-        <terms:issued xml:lang="es">2019-08-30</terms:issued>
+        <terms:issued>2020-02-04</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
         <terms:title xml:lang="es">Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal.</terms:title>
         <terms:title xml:lang="en">Vocabulary for the representation of the data cube measures of the census of inhabitants.</terms:title>
-        <vann:preferredNamespacePrefix rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/espad-medida"/>
+        <vann:preferredNamespacePrefix>espad-medida</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#"/>
         <owl:versionInfo>1.0.0</owl:versionInfo>
     </owl:Ontology>
@@ -69,6 +74,12 @@
     <!-- http://purl.org/dc/elements/1.1/rights -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
     
 
 
@@ -533,15 +544,15 @@
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo">
         <rdfs:comment xml:lang="es">Índice de reemplazo de la población en edad potencialmente activa. Corresponde al porcentaje de personas de 20 a 29 años sobre el total de personas de 55 a 64 años.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
-        <rdfs:label xml:lang="en">Replacement index</rdfs:label>
         <rdfs:comment xml:lang="en">Replacement rate of the population of potentially active age. Corresponds to the percentage of people aged 20 to 29 over the total number of people aged 55 to 64.</rdfs:comment>
+        <rdfs:label xml:lang="en">Replacement index</rdfs:label>
         <rdfs:label xml:lang="es">Índice de reemplazo</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento">
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
         <rdfs:comment xml:lang="en">Proportion between the population of 85 years and over and the population of 65 years and over.</rdfs:comment>
-        <rdfs:label xml:lang="es">Índice de sobreenvejecimiento</rdfs:label>
         <rdfs:label xml:lang="en">Over aging index</rdfs:label>
+        <rdfs:label xml:lang="es">Índice de sobreenvejecimiento</rdfs:label>
         <rdfs:comment xml:lang="es">Proporción entre la población de 85 y más años y la población de 65 y más años.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia">
@@ -560,8 +571,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta">
         <rdfs:comment xml:lang="en">Percentage of population between 25 and 64 years.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Porcentaje de población de entre 25 a 64 años</rdfs:comment>
         <rdfs:label xml:lang="en">Percentage of adult population</rdfs:label>
+        <rdfs:comment xml:lang="es">Porcentaje de población de entre 25 a 64 años</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
         <rdfs:label xml:lang="es">Porcentaje de población adulta</rdfs:label>
     </rdf:Description>
@@ -573,18 +584,18 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida">
-        <rdfs:label xml:lang="es">Porcentaje de población envejecida</rdfs:label>
         <rdfs:comment xml:lang="es">Porcentaje de población de 65 y más años.</rdfs:comment>
-        <rdfs:label xml:lang="en">Percentage of aging population</rdfs:label>
+        <rdfs:label xml:lang="es">Porcentaje de población envejecida</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
+        <rdfs:label xml:lang="en">Percentage of aging population</rdfs:label>
         <rdfs:comment xml:lang="en">Percentage of population of 65 years and over.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera">
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
         <rdfs:comment xml:lang="en">Percentage of foreign nationality population over the total population.</rdfs:comment>
         <rdfs:label xml:lang="es">Porcentaje de población de nacionalidad extranjera</rdfs:label>
-        <rdfs:label xml:lang="en">Percentage of foreign  nationality population</rdfs:label>
         <rdfs:comment xml:lang="es">Porcentaje entre la población con nacionalidad extranjera con respecto al total de la población.</rdfs:comment>
+        <rdfs:label xml:lang="en">Percentage of foreign  nationality population</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera">
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
@@ -597,8 +608,8 @@
         <rdfs:label xml:lang="en">Percentaje of young population</rdfs:label>
         <rdfs:comment xml:lang="es">Porcentaje de población menor de 25 años.</rdfs:comment>
         <rdfs:comment xml:lang="en">Percentage of population under 25 years.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
         <rdfs:label xml:lang="es">Porcentaje de población joven</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero">
         <rdfs:label xml:lang="en">Percentage of population born abroad</rdfs:label>

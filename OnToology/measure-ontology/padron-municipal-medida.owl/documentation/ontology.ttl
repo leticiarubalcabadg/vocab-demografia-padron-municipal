@@ -7,27 +7,32 @@
 @base <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> .
 
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> rdf:type owl:Ontology ;
-                                                                           <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" ,
+                                                                           <http://purl.org/dc/elements/1.1/contributor> "Antonio Bermejo Aguña - Ayuntamiento de Madrid" ,
+                                                                                                                         "Francisco Javier Catalina Celaya - Ayuntamiento de Madrid" ,
+                                                                                                                         "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" ,
                                                                                                                          "María Carmen Ruiz Moreno - Ayuntamiento de Madrid" ,
                                                                                                                          "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza" ,
                                                                                                                          "María Jesús Gallego San Miguel - Ayuntamiento de Madrid" ,
                                                                                                                          "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" ,
                                                                                                                          "Red.es" ,
+                                                                                                                         "Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" ,
                                                                                                                          "Servicio de Informática - Ayuntamiento de Santiago de Compostela" ,
                                                                                                                          "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña" ,
-                                                                                                                         "Víctor Morlán Plo - Ayuntamiento de Zaragoza" ;
+                                                                                                                         "Víctor Morlán Plo - Ayuntamiento de Zaragoza" ,
+                                                                                                                         "Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" ;
                                                                            <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" ,
                                                                                                                      "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
                                                                            <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
                                                                            <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" ;
+                                                                           <http://purl.org/dc/terms/created> "2019-08-30" ;
                                                                            <http://purl.org/dc/terms/description> "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."@es ,
                                                                                                                   "Vocabulary for the representation of the data cube measures of the census of inhabitants."@en ;
                                                                            <http://purl.org/dc/terms/hasFormat> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida.owl> ;
-                                                                           <http://purl.org/dc/terms/issued> "2019-08-30"@es ;
+                                                                           <http://purl.org/dc/terms/issued> "2020-02-04" ;
                                                                            <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> ;
                                                                            <http://purl.org/dc/terms/title> "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."@es ,
                                                                                                             "Vocabulary for the representation of the data cube measures of the census of inhabitants."@en ;
-                                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/espad-medida> ;
+                                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "espad-medida" ;
                                                                            <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
                                                                            owl:versionInfo "1.0.0" .
 
@@ -49,6 +54,10 @@
 
 ###  http://purl.org/dc/elements/1.1/rights
 <http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description
@@ -439,4 +448,4 @@
                               "Tasa de natalidad"@es .
 
 
-###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
