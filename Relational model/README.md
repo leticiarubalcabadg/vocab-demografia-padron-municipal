@@ -76,17 +76,22 @@ A continuación, se detallan los enlaces de interés asociados a este vocabulari
 ## DIAGRAMA CONCEPTUAL <a name="id3"></a>
 
 Vocabulario para la representación de los datos del padrón que provienen de los ficheros de relación de habitantes que intercambian los Ayuntamientos y el INE. La figura muestra las clases y propiedades del Vocabulario de padrón de habitantes.
-&nbsp;
+&nbsp;  
+
 ![Diagrama conceptual](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/resources/images/PadronHabitantes.png)
 &nbsp;
-
+    
+    
 En este cubo se representan aquellos datos relacionados con la edad de los habitantes. Concretamente, se han definido como dimensiones el sexo, el periodo de referencia, el área de referencia, y la edad. Como medida general se ha definido el número de personas, ya que permite encapsular los datos referidos a la población total según edad, población total según edad y sexo, población total según edad, sexo y área, y población total según sexo.  
-&nbsp;
+&nbsp;   
+
 ![Diagrama conceptual](http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal/resources/images/CuboDatosEdad.png)
 &nbsp;
-
+    
+    
 Para la generación de los cubos de datos del Padrón Municipal se reutiliza el vocabulario W3C Data Cube. En el diagrama se puede observar como W3C Data Cube contiene varios conceptos y propiedades que permiten describir datos para diferentes niveles de agregación.  
-&nbsp;
+&nbsp;    
+
 ![Diagrama conceptual](https://www.w3.org/TR/vocab-data-cube/images/qb-fig1.png)
 &nbsp;
 
