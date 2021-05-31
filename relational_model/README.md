@@ -97,7 +97,7 @@ Para la generación de los cubos de datos del Padrón Municipal se reutiliza el 
 
 
 ## TABLAS <a name="id4"></a>
-En principio se considera esta estructura de datos bastante estable y no se estima que sufrirá cambios. Pero puesto que la actuación D2, que es donde se enmarca la definición de estas tablas, aún está en desarrollo, y además sobre esta estructura se basa de la visualización de población a desarrollar en T5B, no se puede asegurar al 100% que será la definitiva.
+
 Para el conjunto de datos Población, la API necesita las tablas: 
 
 [comment]: <!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!> 
