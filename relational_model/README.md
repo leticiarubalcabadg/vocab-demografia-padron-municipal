@@ -472,69 +472,69 @@ Lista de códigos de edad por años individuales según lo definido por SDMX.
 &nbsp;
 ### CUBE_DSD <a name="id17"></a>
 Esta tabla contiene los siguientes campos:  
-|     Campo       |     Tipo            |     Ejemplo                                                                                                                              |     Descripción                                                 |     URL                                             |
-|-----------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------|
-|     ikey        |     varchar(50)     |     cuboPadron1                                                                                                                          |     Identificador de la Tabla (PK).                             |                                                     |
-|     id          |     varchar(50)     |     poblacionPorEdadGruposQuinquenales                                                                                                   |     Identificador del cubo DSD (DataStructureDefinition).       |     http://purl.org/dc/terms/identifier             |
-|     title       |     varchar(400)    |     Estructura de los datos relacionados con la edad de los   habitantes registrados en el padrón municipal según rangos quinquenales    |     Título o nombre del cubo DSD (DataStructureDefinition).     |     http://purl.org/dc/terms/title                  |
-|     notation    |     varchar(50)     |     poblacionPorEdadGruposQuinquenales                                                                                                   |     Notación de un cubo DSD (DataStructureDefinition).          |     http://www.w3.org/2004/02/skos/core#notation    |
+|         Campo          |         Tipo               |         Ejemplo                                                                                                                                 |         Descripción                                                    |         URL                                                |
+|------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------|
+|         ikey           |         varchar(50)        |         cuboPadron1                                                                                                                             |         Identificador de la Tabla (PK).                                |                                                            |
+|         id             |         varchar(50)        |         poblacionPorEdadGruposQuinquenales                                                                                                      |         Identificador del cubo DSD (DataStructureDefinition).          |         http://purl.org/dc/terms/identifier                |
+|         title          |         varchar(400)       |         Estructura de los datos relacionados con la edad de los   habitantes registrados en el padrón municipal según rangos quinquenales       |         Título o nombre del cubo DSD (DataStructureDefinition).        |         http://purl.org/dc/terms/title                     |
+|         notation       |         varchar(50)        |         poblacionPorEdadGruposQuinquenales                                                                                                      |         Notación de un cubo DSD (DataStructureDefinition).             |         http://www.w3.org/2004/02/skos/core#notation       |
 
 
 &nbsp;
 ### CUBE_DSD_DIMENSION <a name="id18"></a>
 Esta tabla contiene los siguientes campos:   
-|     Campo             |     Tipo            |     Ejemplo                                                                                                                                                                               |     Descripción                                                                                                 |     URL                                                  |
-|-----------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-|     ikey              |     varchar(50)     |     age                                                                                                                                                                                   |     Identificador de la Tabla (PK).                                                                             |                                                          |
-|     id                |     varchar(50)     |     age                                                                                                                                                                                   |     Identificador de la dimensión de un cubo DSD (Data   StructureDefinition).                                  |     http://purl.org/dc/terms/identifier                  |
-|     title             |     varchar(400)    |     Edad                                                                                                                                                                                  |     Título o nombre de la dimensión de un cubo DSD   (DataStructureDefinition).                                 |     http://purl.org/dc/terms/title                       |
-|     notation          |     varchar(50)     |     age                                                                                                                                                                                   |     Notación de un cubo DSD (DataStructureDefinition).                                                          |     http://www.w3.org/2004/02/skos/core#notation         |
-|     concept_scheme    |     varchar(400)    |     https://opendata.aragon.es/kos/iaest/edad-grupos-quinquenales                                                                                                                         |     Esquema de conceptos (taxonomía) SKOS en donde se definen los   posibles valores de esa dimensión.          |     http://www.w3.org/2004/02/skos/core#ConceptScheme    |
-|     same_as           |     varchar(400)    |     http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales                                                                                                                |     Es un recurso igual a la dimensión en la que está definida.                                                 |     https://www.w3.org/2002/07/owl#sameAs                |
-|     multiple_field    |     varchar(400)    |     paisId, paisTitle, autonomiaId, autonomiaTitle, provinciaId, provinciaTitle, municipioId, municipioTitle, distritoId, distritoTitle, barrioId, barrioTitle, seccionCensalId, seccionCensalTitle    |     sdmx-dimenson:refArea                                                                                       |                                                          |
+|         Campo                |         Tipo               |         Ejemplo                                                                                                                                                                                  |         Descripción                                                                                                    |         URL                                                     |
+|------------------------------|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+|         ikey                 |         varchar(50)        |         age                                                                                                                                                                                      |         Identificador de la Tabla (PK).                                                                                |                                                                 |
+|         id                   |         varchar(50)        |         age                                                                                                                                                                                      |         Identificador de la dimensión de un cubo DSD (Data   StructureDefinition).                                     |         http://purl.org/dc/terms/identifier                     |
+|         title                |         varchar(400)       |         Edad                                                                                                                                                                                     |         Título o nombre de la dimensión de un cubo DSD   (DataStructureDefinition).                                    |         http://purl.org/dc/terms/title                          |
+|         notation             |         varchar(50)        |         age                                                                                                                                                                                      |         Notación de un cubo DSD (DataStructureDefinition).                                                             |         http://www.w3.org/2004/02/skos/core#notation            |
+|         concept_scheme       |         varchar(400)       |         https://opendata.aragon.es/kos/iaest/edad-grupos-quinquenales                                                                                                                            |         Esquema de conceptos (taxonomía) SKOS en donde se definen los   posibles valores de esa dimensión.             |         http://www.w3.org/2004/02/skos/core#ConceptScheme       |
+|         same_as              |         varchar(400)       |         http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales                                                                                                                   |         Es un recurso igual a la dimensión en la que está definida.                                                    |         https://www.w3.org/2002/07/owl#sameAs                   |
+|         multiple_field       |         varchar(400)       |         paisId,paisTitle,autonomiaId,autonomiaTitle,provinciaId,provinciaTitle,municipioId,municipioTitle,distritoId,distritoTitle,barrioId,barrioTitle,seccionCensalId,seccionCensalTitle       |         sdmx-dimenson:refArea                                                                                          |                                                                 |
 
 
 &nbsp;
 ### CUBE_DSD_DIMENSION_VALUE <a name="id19"></a>
 Esta tabla contiene los siguientes campos:   
-|     Campo               |     Tipo            |     Ejemplo                                                                                           |     Descripción                                                   |     URL                                    |
-|-------------------------|---------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------|
-|     ikey                |     varchar(50)     |     00                                                                                                |     Identificador de la Tabla (PK).                               |                                            |
-|     id                  |     varchar(50)     |     00                                                                                                |     Identificador del valor de una dimensión de un cubo DSD.      |     http://purl.org/dc/terms/identifier    |
-|     title               |     varchar(400)    |     No aplicable por ser menor de 16 años                                                             |     Nombre o título del valor de una dimensión de un cubo DSD.    |     http://purl.org/dc/terms/title         |
-|     dimension_key       |     varchar(50)     |     tipo-nivel-estudio                                                                                |     FK a la tabla CUBE_DSD_DIMENSION                              |                                            |
-|     top_concept_of      |     varchar(400)    |     http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio       |     Es un SKOS de la dimensión al cual pertenece ese valor.       |     SKOS:topConceptOf                      |
-|     external_path_id    |     varchar(400)    |     http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/00    |                                                                   |                                            |
+|         Campo                  |         Tipo               |         Ejemplo                                                                                              |         Descripción                                                      |         URL                                       |
+|--------------------------------|----------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|---------------------------------------------------|
+|         ikey                   |         varchar(50)        |         00                                                                                                   |         Identificador de la Tabla (PK).                                  |                                                   |
+|         id                     |         varchar(50)        |         00                                                                                                   |         Identificador del valor de una dimensión de un cubo DSD.         |         http://purl.org/dc/terms/identifier       |
+|         title                  |         varchar(400)       |         No aplicable por ser menor de 16 años                                                                |         Nombre o título del valor de una dimensión de un cubo DSD.       |         http://purl.org/dc/terms/title            |
+|         dimension_key          |         varchar(50)        |         tipo-nivel-estudio                                                                                   |         FK a la tabla CUBE_DSD_DIMENSION                                 |                                                   |
+|         top_concept_of         |         varchar(400)       |         http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio          |         Es un SKOS de la dimensión al cual pertenece ese valor.          |         SKOS:topConceptOf                         |
+|         external_path_id       |         varchar(400)       |         http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/00       |                                                                          |                                                   |
 
 
 &nbsp;
 ### CUBE_DSD_MEASURE <a name="id20"></a>
 Esta tabla contiene los siguientes campos:   
-|     Campo    |     Tipo            |     Ejemplo                       |     Descripción                                     |     URL                                    |
-|--------------|---------------------|-----------------------------------|-----------------------------------------------------|--------------------------------------------|
-|     ikey     |     varchar(50)     |     edad-media-poblacion          |     Identificador de la Tabla (PK).                 |                                            |
-|     id       |     varchar(50)     |     edadMediaPoblacion            |     Identificador de la medida de un cubo DSD.      |     http://purl.org/dc/terms/identifier    |
-|     title    |     varchar(400)    |     Edad media de la población    |     Nombre o título de la medida de un cubo DSD.    |     http://purl.org/dc/terms/title         |
+|         Campo       |         Tipo               |         Ejemplo                          |         Descripción                                        |         URL                                       |
+|---------------------|----------------------------|------------------------------------------|------------------------------------------------------------|---------------------------------------------------|
+|         ikey        |         varchar(50)        |         edad-media-poblacion             |         Identificador de la Tabla (PK).                    |                                                   |
+|         id          |         varchar(50)        |         edadMediaPoblacion               |         Identificador de la medida de un cubo DSD.         |         http://purl.org/dc/terms/identifier       |
+|         title       |         varchar(400)       |         Edad media de la población       |         Nombre o título de la medida de un cubo DSD.       |         http://purl.org/dc/terms/title            |
 
 
 &nbsp;
 ### CUBE_DSD_REL_DIMENSION <a name="id21"></a>
 Esta tabla contiene los siguientes campos:    
-|     Campo            |     Tipo           |     Ejemplo            |     Descripción                         |
-|----------------------|--------------------|------------------------|-----------------------------------------|
-|     ikey             |     varchar(50)    |     PadronEdadAge      |     Identificador de la Tabla (PK).     |
-|     cube_key         |     varchar(50)    |     cuboPadron1        |     FK a la tabla CUBE_DSD              |
-|     dimension_key    |     varchar(50)    |     numero-personas    |     FK a la tabla CUBE_DSD_DIMENSION    |
+|         Campo               |         Tipo              |         Ejemplo               |         Descripción                            |
+|-----------------------------|---------------------------|-------------------------------|------------------------------------------------|
+|         ikey                |         varchar(50)       |         PadronEdadAge         |         Identificador de la Tabla (PK).        |
+|         cube_key            |         varchar(50)       |         cuboPadron1           |         FK a la tabla CUBE_DSD                 |
+|         dimension_key       |         varchar(50)       |         numero-personas       |         FK a la tabla CUBE_DSD_DIMENSION       |
 
 
 &nbsp;
 ### CUBE_DSD_REL_MEASURE <a name="id22"></a>
 Esta tabla contiene los siguientes campos:   
-|     Campo          |     Tipo           |     Ejemplo               |     Descripción                        |
-|--------------------|--------------------|---------------------------|----------------------------------------|
-|     ikey           |     varchar(50)    |     PadronEdadPersonas    |     Identificador de la Tabla (PK).    |
-|     cube_key       |     varchar(50)    |     cuboPadron6           |     FK a la tabla CUBE_DSD             |
-|     measure_key    |     varchar(50)    |     age                   |     FK a la tabla  CUBE_DSD_MEASURE    |
+|         Campo             |         Tipo              |         Ejemplo                  |         Descripción                           |
+|---------------------------|---------------------------|----------------------------------|-----------------------------------------------|
+|         ikey              |         varchar(50)       |         PadronEdadPersonas       |         Identificador de la Tabla (PK).       |
+|         cube_key          |         varchar(50)       |         cuboPadron6              |         FK a la tabla CUBE_DSD                |
+|         measure_key       |         varchar(50)       |         age                      |         FK a la tabla  CUBE_DSD_MEASURE       |
 
 
 &nbsp;
